@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Categories Section */
+.categories .card {
+    padding: 20px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.categories .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Call to Action */
+.cta {
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Centering the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Social Login Buttons */
+.social-login button {
+    width: 45%;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Centering the registration form */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 450px;
+}
+
+/* Form elements */
+.registration-box input,
+.registration-box select {
+    border-radius: 5px;
+}
+
+/* Gender selection */
+.d-flex .form-check {
+    flex: 1;
+}

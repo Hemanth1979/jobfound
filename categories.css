@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Categories Section */
+.categories {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Category Cards */
+.category-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+}
+
+.category-card i {
+    margin-bottom: 15px;
+}
+
+.category-card h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
